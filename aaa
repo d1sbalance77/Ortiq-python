@@ -1,0 +1,13 @@
+while True:
+    print("1. Добавить контакт:")
+    print("2. Изменить контакт:")
+    print("3. Удалить контакт:")
+    print("4. Вывести весь список контактов:")
+
+    choice = input("Выберите действие: ")
+
+    if choice == "1":
+        name = input("Введите имя: ")
+        phone = input("Введите номер телефона: ")
+        contact = {"Имя": name, "Номер телефона": phone,}
+        contacts.append(contact)
